@@ -38,6 +38,10 @@ function changeColor() {
   square.click(function () {
     center.toggleClass("red")
   })
+  square.click(function () {
+    center.toggleClass("blue")
+  })
+
 
 }
 
